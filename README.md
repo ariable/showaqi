@@ -2,6 +2,8 @@
 
 根据访客的ip地址显示其城市的 AQI IP 对应城市用的是新浪的 API
 
+因为使用了城市转拼音，所以只能支持国内的城市
+
 用法就是将几个 PHP 文件都放到同一目录下
 
 前端只需要`<script src="yoursite.com/aqijs.php?size=xxx"></script>`
